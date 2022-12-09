@@ -1,0 +1,52 @@
+.app-root {
+  background-color: var(--color-primary-dark-cyan);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.app-root .circle-top,
+.app-root .circle-bottom {
+  width: 100vw;
+  height: 100vw;
+  position: absolute;
+  background-size: contain;
+  z-index: 0;
+}
+
+.app-root .circle-top {
+  background-image: url("/assets/imgs/bg-pattern-top.svg");
+  top: -50vw;
+  left: -50vw;
+}
+
+.app-root .circle-bottom {
+  background-image: url("/assets/imgs/bg-pattern-bottom.svg");
+  bottom: -50vw;
+  right: -50vw;
+}
+
+.app-main {
+  z-index: 100;
+}
+
+@media only screen and (min-width: 1023px) {
+  .app-root .circle-top,
+  .app-root .circle-bottom {
+    width: 1024px;
+    height: 1024px;
+  }
+  .app-root .circle-top {
+    top: -512px;
+    left: -512px;
+  }
+
+  .app-root .circle-bottom {
+    bottom: -512px;
+    right: -512px;
+  }
+}

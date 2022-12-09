@@ -1,0 +1,19 @@
+.card-profile-top-root {
+  position: relative;
+  width: 100%;
+  height: 140px;
+}
+
+.bg-top-card-content {
+  position: absolute;
+  z-index: 100;
+}
+
+.profile-picture-circle-content {
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  height: 55px;
+  bottom: 0;
+}
+

@@ -1,0 +1,12 @@
+.card-profile-root {
+  background-color: #fff;
+  height: var(--size-card-height);
+  width: var(--size-card-width);
+  border-radius: 15px;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.card-profile-content {
+  margin-bottom: 65px;
+}

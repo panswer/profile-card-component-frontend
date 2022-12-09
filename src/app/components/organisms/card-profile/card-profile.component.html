@@ -1,0 +1,21 @@
+<div class="card-profile-root" *ngIf="userProfile">
+  <div class="card-profile-content">
+    <app-card-profile-top
+      class="card-profile-top"
+      [photo]="userProfile.photo"
+    ></app-card-profile-top>
+  </div>
+  <div class="card-profile-body">
+    <app-card-profile-body
+      [firstname]="userProfile.firstname"
+      [lastname]="userProfile.lastname"
+      [age]="userProfile.age"
+      [country]="userProfile.country"
+    ></app-card-profile-body>
+  </div>
+  <div class="card-footer-content">
+    <app-card-profile-footer
+      [userStats]="userProfile.stats"
+    ></app-card-profile-footer>
+  </div>
+</div>

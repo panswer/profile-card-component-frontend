@@ -1,0 +1,11 @@
+.bg-top-card-root {
+  background-color: var(--color-primary-dark-cyan);
+  height: 140px;
+  width: var(--size-card-width);
+  overflow: hidden;
+}
+
+.bg-top-card-root > .circles {
+  width: auto;
+  height: 100%;
+}

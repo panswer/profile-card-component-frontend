@@ -1,0 +1,33 @@
+.card-profile-body-root {
+  text-align: center;
+}
+
+.card-profile-body-top {
+  padding-top: 1rem;
+}
+
+.card-profile-body-bottom {
+  margin-top: .5rem;
+  font-size: 0.8rem;
+}
+
+.fullname,
+.country {
+  text-transform: capitalize;
+}
+
+.fullname {
+  margin-right: 0.5rem;
+  font-weight: var(--font-weight-2);
+  color: var(--color-primary-very-dark-desatured-blue);
+}
+
+.age {
+  color: var(--color-primary-dark-grayish-blue);
+  font-weight: var(--font-weight-1);
+}
+
+.country {
+  color: var(--color-primary-dark-grayish-blue);
+  font-weight: var(--font-weight-1);
+}
